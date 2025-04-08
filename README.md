@@ -1,11 +1,13 @@
 # Assignment for BT4BR exercise session nr.5
 
 ## Bacis information about author
+---
 Date: 08.04.2025<br>
 Name & surname: Maksymilian Gmur<br>
 Collage: Jagiellonian University<br>
 Field of study: Bioinformatics<br>
 Degree: Bachelor<br>
+---
 
 ## GitHub commands breakdown
 This section will cover the most usefull commands that can be used to eddit GitHub repositories.
