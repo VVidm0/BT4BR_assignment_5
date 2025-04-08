@@ -11,28 +11,24 @@ Degree: Bachelor<br>
 This section will cover the most usefull commands that can be used to eddit GitHub repositories.
 ### Basic workflow
 It describes a line of commands that are always used if you want to change something in your repository. 
->git add -u 
->
->git commit "Commit name"
->
->git push origin branch
+`git add -u` 
+`git commit "Commit name"`
+`git push origin branch`
 ### Merging conflicts 
 This section will provide simple commands that can be used if you encounter merging conflict
->git log --merge
+`git log --merge`
 **This command wil provide you with insight to  what is causing the conflict**
 **The conflicting changes will be put together in a edited file**
->git add -u File_with_conflict
->
->git commit -m "Fix merge"
->
->git push origin
+`git add -u File_with_conflict`
+`git commit -m "Fix merge"`
+`git push origin`
 **Before adding file you can manually edit the file to decide which change you want to leave**
 ### Git commands
-- git checkout: (changees working branch)
-- git merge branch: (Merges content of current branch with branch listed in commend)
-- git show: (Shows the contents of a single commit)
-- git add: (Select files that will be commited)
-	- git add . (Adds all files in the directory)
-	- git add -u (Adds only modified files)	 
+- `git checkout`: (changees working branch)
+- `git merge branch`: (Merges content of current branch with branch listed in commend)
+- `git show`: (Shows the contents of a single commit)
+- `git add`: (Select files that will be commited)
+	- `git add .` (Adds all files in the directory)
+	- `git add -u` (Adds only modified files)	 
 
 
