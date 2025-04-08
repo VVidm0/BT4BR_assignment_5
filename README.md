@@ -21,7 +21,7 @@ git push origin branch
 ```
 git log --merge
 ```
-*This command wil provide you with insight to  what is causing the conflict*
+*This command wil provide you with insight to  what is causing the conflict.*
 *The conflicting changes will be put together in a edited file.*<br>
 ```
 git add -u Name_file_with_conflict
@@ -30,11 +30,11 @@ git push origin
 ```
 *Before adding file you can manually edit the file to decide which change you want to leave*
 ### Git commands
-- `git checkout`: (changees working branch)
+- `git checkout`: (Changes working branch)
 - `git merge branch`: (Merges content of current branch with branch listed in commend)
 - `git show`: (Shows the contents of a single commit)
 - `git add`: (Select files that will be commited)
 	- `git add .` (Adds all files in the directory)
-	- `git add -u` (Adds only modified files)	 
-
-
+	- `git add -u` (Adds only modified files)
+- `git pull`: (Downloads from webserver and merges it with files on computer)
+- `git branch`: (Creates a new branch)
