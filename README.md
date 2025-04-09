@@ -14,7 +14,7 @@
 >**It describes a line of commands that are always used if you want to change something in your repository.**<br> 
 ```
 git add -u
-git commit "Commit name"
+git commit -m "Commit name"
 git push origin branch
 ```
 ### Merging conflicts 
